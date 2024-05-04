@@ -4,7 +4,7 @@ export const Packages = () => {
   return (
     <section
       id="services"
-      className="min-h-screen  max-w-5xl w-full font-mono text-sm flex flex-col gap-8"
+      className="h-screen  max-w-5xl w-full font-mono text-sm flex flex-col gap-8 justify-center items-center"
     >
       <h2 className="text-5xl drop-shadow-lg font-thin text-center">
         Ищете хороший мотоцикл за разумные деньги?

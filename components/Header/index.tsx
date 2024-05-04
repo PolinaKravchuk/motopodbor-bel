@@ -25,7 +25,12 @@ const Header = () => {
         >
           <div className="h-10 md:h-[100px] w-full z-10 px-4 py-2 rounded-xl  bg-slate-700">
             <ContactsPanel />
-            <Navigation isMenuOpen={isMenuOpen} onClose={toggleMenu} />
+            <Navigation
+              isMenuOpen={isMenuOpen}
+              onClose={() => {
+                setIsMenuOpen(false);
+              }}
+            />
           </div>
         </div>
         {!isMenuOpen && (

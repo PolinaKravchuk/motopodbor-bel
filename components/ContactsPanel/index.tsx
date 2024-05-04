@@ -53,7 +53,7 @@ const ContactsPanel = () => {
       <div className="flex items-center space-x-4">
         <div>
           <p>Время работы Пн-Пт с 9:00 до 19:00</p>
-          <p>Суббота по согласованию.</p>
+          <p>Суббота по согласованию</p>
         </div>
       </div>
     </div>

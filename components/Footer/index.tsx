@@ -14,7 +14,7 @@ const Footer = () => {
         className="relative shadow-inner font-mono bg-cover bg-center  bg-black bg-no-repeat py-4 h-[200px] w-full"
       >
         <img
-          src="../../assets/moto-main.jpg"
+          src="../../assets/moto-footer.jpg"
           alt="Footer Background"
           className="absolute inset-0 w-full h-full object-cover opacity-50"
         />

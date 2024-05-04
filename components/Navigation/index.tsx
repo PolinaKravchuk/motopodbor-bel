@@ -21,7 +21,7 @@ const Navigation = ({
         </div>
       )}
       <ul className="text-3xl block md:flex items-center space-x-8 text-bold md:text-xl text-400">
-        <li className="p-4 md:p-0">
+        <li className="pl-12 p-4 md:p-0">
           <a
             href="#services"
             className="nav-link hover:text-amber-700 hover:drop-shadow-lg transition-all"
@@ -39,15 +39,7 @@ const Navigation = ({
             Что проверяем
           </a>
         </li>
-        <li className="p-4 md:p-0">
-          <a
-            href="#about"
-            className="nav-link hover:text-amber-700 hover:drop-shadow-lg transition-all"
-            onClick={onClose}
-          >
-            О нас
-          </a>
-        </li>
+
         <li className="p-4 md:p-0">
           {" "}
           <a
