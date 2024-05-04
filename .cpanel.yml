@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export REPOPATH=/home/motopodbor/repo/*
+    - export SITEPATH=/home/motopodbor/public_html/
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
