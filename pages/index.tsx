@@ -12,7 +12,7 @@ export default function Home() {
     <div className="relative">
       <Header />
       <main
-        className={`flex flex-col items-center justify-between p-24 ${inter.className}`}
+        className={`p-8 flex flex-col items-center justify-between md:p-24 ${inter.className}`}
       >
         <Packages />
 
