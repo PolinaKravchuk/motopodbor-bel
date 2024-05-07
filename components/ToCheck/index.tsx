@@ -10,7 +10,7 @@ export const ToCheck = () => {
   return (
     <section
       id="check"
-      className="h-2/3  max-w-5xl w-full font-mono text-sm flex flex-col gap-8"
+      className="h-1/2 md:h-2/3 max-w-5xl w-full font-mono text-sm flex flex-col gap-8"
     >
       <h2 className="text-5xl drop-shadow-lg font-thin text-center">
         Что мы проверяем?
